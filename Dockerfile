@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-COPY /build/libs/*.war app.war
+COPY wine-0.0.1-SNAPSHOT.war app.war
 
 EXPOSE 8888
 
