@@ -12,7 +12,7 @@ node  {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("getintodevops/hellonode")
+        app = docker.build("slackgirl92/jenkins-test")
     }
 
     stage('Test image') {
