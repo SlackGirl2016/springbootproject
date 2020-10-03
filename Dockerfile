@@ -1,8 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-ARG JAR_FILE=target/*.war
-
-COPY ${JAR_FILE} app.war
+COPY /build/libs/*.war app.war
 
 EXPOSE 8888
 
